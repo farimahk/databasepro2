@@ -75,7 +75,7 @@ void SelectClass( string classname )     //put the class on optional state
 void AddClass( string filename )   //get the name of a file and add the filel`s class to database
 {
     ifstream input2 ;
-    input2.open(filename,ios::in) ;
+    input2.open( filename,ios::in ) ;
     if( !input2 )
         {
             cerr<<"there isn`t any file! " ;
